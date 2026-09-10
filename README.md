@@ -49,7 +49,7 @@ Including it here anyway — the hardware integration work was real, even though
 
 ## Code
 
-- [`wall_follow_mega.ino`](wall_follow_mega.ino) — the Arduino Mega build above (no code survives for the STM32 build)
+- [`micromouse_sim.ino`](micromouse_sim.ino) — the Arduino Mega build above (no code survives for the STM32 build)
 
 ## What I'd improve
 
