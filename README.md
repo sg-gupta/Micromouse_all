@@ -26,11 +26,11 @@ A wall-following maze robot that went through several hardware iterations but wa
 
 ## Status
 
-Never fully completed — this is a working snapshot of reactive wall-following, not a finished maze-mapping/solving competition bot.
+this is a working snapshot of reactive wall-following, not a maze-mapping/solving competition bot.
 
 ## Other iteration: STM32 BluePill build (also unfinished)
 
-Before the Mega version above, this went through a much more ambitious build:
+After the Mega version above, I went through a much more ambitious build:
 
 - STM32 BluePill, flashed via an FTDI module
 - TB6612FNG motor driver, 2x encoded N20 motors
@@ -46,7 +46,7 @@ Before the Mega version above, this went through a much more ambitious build:
 
 Every subsystem — motors, the Bluetooth link, IMU, OLED, sensors — worked individually and together after testing. What never got finished was a complete maze-solving algorithm on top of it; a proper flood-fill/maze-mapping implementation turned out to be a bigger scope than made sense to take on at the time. The project was shelved there, and the code for it wasn't kept.
 
-Including it here anyway — the hardware integration work was real, even though the algorithm side never got finished.
+Including it here anyway even though the algorithm side never got finished.
 
 ## Code
 
@@ -55,7 +55,6 @@ Including it here anyway — the hardware integration work was real, even though
 ## What I'd improve
 
 - Add actual maze-mapping/solving (flood-fill or similar) — currently it only reacts to walls in front of it, it doesn't remember the maze
-- Tune in the `Ki` term (currently 0) if steady-state centering drift shows up on longer straights
 - Move off jumper-wire wiring to a proper perfboard/PCB for reliability
 
 ## Repo structure
