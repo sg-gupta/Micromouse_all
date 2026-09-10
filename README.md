@@ -5,7 +5,9 @@ A wall-following maze robot that went through several hardware iterations but wa
 <p align="center">
   <img src="build.png" width="60%" />
 </p>
+<p 
 <video controls src="https://photos.app.goo.gl/6BGm8mj42sfdQmHb9"></video>
+</p>
 
 ## Hardware
 
