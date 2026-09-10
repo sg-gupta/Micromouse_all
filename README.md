@@ -40,7 +40,7 @@ Before the Mega version above, this went through a much more ambitious build:
 - All hand-wired on a single perfboard
 
 <p align="center">
-  <img src="perfboard-build.png" width="60%" />
+  <img src="perfboard-build.png" width="80%" />
 </p>
 
 Every subsystem — motors, the Bluetooth link, IMU, OLED, sensors — worked individually and together after testing. What never got finished was a complete maze-solving algorithm on top of it; a proper flood-fill/maze-mapping implementation turned out to be a bigger scope than made sense to take on at the time. The project was shelved there, and the code for it wasn't kept.
