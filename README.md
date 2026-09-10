@@ -3,10 +3,9 @@
 A wall-following maze robot that went through several hardware iterations but was never fully completed. This repo documents both: the working DIY/makeshift Arduino Mega build (code included below) and an earlier, more ambitious STM32-based perfboard build that never got a finished maze-solving algorithm.
 
 <p align="center">
-  <img src="build.jpg" width="60%" />
+  <img src="build.png" width="60%" />
 </p>
-
-*(disassembled view of the wiring — video demo to be added)*
+<video controls src="(https://photos.app.goo.gl/6BGm8mj42sfdQmHb9)"></video>
 
 ## Hardware
 
